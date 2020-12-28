@@ -1,0 +1,73 @@
+body {
+  margin: 20;
+  padding-top: 90px ;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(31, 84, 199);
+  background-image: url("./Components/assets/coffeedesk.jpg");
+  background-size: cover;
+  font-size: 150%;
+}
+
+  .todo-app {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 126, 247);
+    font-size: 100%;
+    
+  }
+  
+  /** add todo **/
+  .add-todo {
+    margin-left: 0.5rem;
+    background-color: rgb(128, 162, 235); 
+    border: none;
+    color: rgb(31, 84, 199);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px ;
+    
+  }
+  
+  /** todo list **/
+  .todo-list {
+    margin-top: 1rem;
+    
+    list-style: none;
+  }
+  
+  /** todo item **/
+  .todo-item {
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    line-height: 1.5;
+    font-size: 125%;
+
+  }
+  .todo-item__text--completed {
+    text-decoration: line-through;
+    color: rgb(128, 162, 235);
+  }
+  
+  /** visibility filters **/
+  .filter {
+    padding: 0.3rem 0;
+    margin: 0 0.3rem;
+    cursor: pointer;
+  }
+  .filter--active {
+    border-bottom: 1px solid black;
+  }
+  input {
+    width: 50%;
+    height:25% ;
+    font-size: 75%;
+  }
+
+  
+
+  
